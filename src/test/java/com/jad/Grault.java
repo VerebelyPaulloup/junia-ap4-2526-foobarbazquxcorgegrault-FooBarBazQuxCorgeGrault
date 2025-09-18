@@ -6,8 +6,12 @@ public class Grault {
     public Grault(Foo foo) {
         this.foo = foo;
     }
+    public Foo getFoo() {
+        return this.foo;
+    }
 
-    public void setFoo(Foo foo) {
-        this.foo = foo;
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }
