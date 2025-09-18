@@ -1,10 +1,10 @@
 package com.jad;
 
-public class Corge extends Foo{
+public class Corge{
     private Foo foo;
 
 
-    public Corge(Foo foo) {
+    public Corge(Foo foo){
         this.foo = foo;
     }
 
