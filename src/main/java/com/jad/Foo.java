@@ -46,14 +46,8 @@ public class Foo {
         return this.graults;
     }
 
-    @Override
-    public String toString() {
-        return "Foo{" +
-                "bar=" + bar +
-                ", bazs=" + bazs +
-                ", qux=" + qux +
-                ", corge=" + corge +
-                ", graults=" + graults +
-                '}';
+    public void setCorge(Corge corge) {
+        if (this.corge != null) this.corge.setFoo(null);
+        this.corge = corge;
     }
 }

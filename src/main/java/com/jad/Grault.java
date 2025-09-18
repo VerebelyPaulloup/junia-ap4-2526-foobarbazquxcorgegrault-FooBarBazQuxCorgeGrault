@@ -10,12 +10,4 @@ public class Grault {
         return this.foo;
     }
 
-    @Override
-    public String toString() {
-        return super.toString();
-    }
-
-    public void setFoo(Foo foo) {
-        this.foo = foo;
-    }
 }
