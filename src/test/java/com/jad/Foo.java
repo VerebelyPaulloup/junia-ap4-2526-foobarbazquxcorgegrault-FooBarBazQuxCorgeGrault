@@ -45,4 +45,15 @@ public class Foo {
     public List<Grault> getGraults() {
         return this.graults;
     }
+
+    @Override
+    public String toString() {
+        return "Foo{" +
+                "bar=" + bar +
+                ", bazs=" + bazs +
+                ", qux=" + qux +
+                ", corge=" + corge +
+                ", graults=" + graults +
+                '}';
+    }
 }
